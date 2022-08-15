@@ -7,16 +7,10 @@ import { useState } from 'react';
 function App() {
 
   return (
-    
-    
-    <>
-    <InputUrl></InputUrl>
-   </>
   
-        
-       
+    <InputUrl></InputUrl>
     
-    
+   
   );
 }
 

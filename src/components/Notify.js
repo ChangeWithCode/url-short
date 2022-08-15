@@ -10,7 +10,7 @@ const Notify = ({message ,show1 , handleClick1 , variant}) => {
       <div>
       {show1 === true?
 <ToastContainer position="top-end" className="p-3">
-      <Toast onClose={handleClick1} show1={show1} position={position} delay={30000000} autohide 
+      <Toast onClose={handleClick1} show1={show1} position={position} delay={3000} autohide 
 
       bg={variant}
 
